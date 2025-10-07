@@ -21,7 +21,7 @@ namespace AtividadePaciente
         private int telefone { get; set; }
         private string email { get; set; }
 
-        Pessoa[] paciente = new Pessoa[15];
+        Pessoa[] paciente = new Pessoa[6];
 
 
         public void CadastrarPaciente()
@@ -32,17 +32,17 @@ namespace AtividadePaciente
                     Console.WriteLine("Nome do Paciente {0}: ", i);
                     string nome = Console.ReadLine();
 
-                    Console.WriteLine("CPF do Paciente {0}: ", i);
-                    cpf = double.Parse(Console.ReadLine());
+                    //Console.WriteLine("CPF do Paciente {0}: ", i);
+                    //cpf = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("RG do Paciente {0}: ", i);
-                    rg = double.Parse(Console.ReadLine());
+                    //Console.WriteLine("RG do Paciente {0}: ", i);
+                    //rg = double.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Endereço do Paciente {0}: ", i);
-                    endereco = Console.ReadLine();
+                    //Console.WriteLine("Endereço do Paciente {0}: ", i);
+                    //endereco = Console.ReadLine();
 
-                    Console.WriteLine("Data de Nascimento do Paciente {0}: ", i);
-                    datanasc = double.Parse(Console.ReadLine());
+                    //Console.WriteLine("Data de Nascimento do Paciente {0}: ", i);
+                    //datanasc = double.Parse(Console.ReadLine());
 
                     Console.WriteLine("Idade do Paciente {0}: ", i);
                     int idade = int.Parse(Console.ReadLine());
@@ -50,8 +50,8 @@ namespace AtividadePaciente
                     Console.WriteLine("Telefone do Paciente {0}: ", i);
                     telefone = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Email do Paciente {0}: ", i);
-                    email = Console.ReadLine();
+                    //Console.WriteLine("Email do Paciente {0}: ", i);
+                    //email = Console.ReadLine();
 
                     Console.WriteLine("Paciente {0} Cadastrado com Sucesso!", i);
                     paciente[i] = new Pessoa { Id = i, Nome = nome, Idade = idade };
