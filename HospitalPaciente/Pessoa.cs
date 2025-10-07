@@ -21,7 +21,7 @@ namespace AtividadePaciente
         private int telefone { get; set; }
         private string email { get; set; }
 
-        Pessoa[] paciente = new Pessoa[4];
+        Pessoa[] paciente = new Pessoa[15];
 
 
         public void CadastrarPaciente()
